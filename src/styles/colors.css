@@ -1,0 +1,32 @@
+:root {
+    --darkGreen: #004643;
+    --Rajah: #f9bc60;
+    --White: #fffffe;
+    --CarminePink: #e16162;
+    --pasetBlue: #abd1c6;
+    --platinum: #e8e4e6;
+}
+
+.darkGreen {
+    color: var(--darkGreen);
+}
+
+.Rajah {
+    color: var(--Rajah);
+}
+
+.White {
+    color: var(--White);
+}
+
+.CarminePink {
+    color: var(--CarminePink);
+}
+
+.pastelBlue {
+    color: var(--pasetBlue);
+}
+
+.platinum {
+    color: var(--platinum);
+}
