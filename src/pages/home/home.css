@@ -1,4 +1,38 @@
 .root {
-    background: #004643;
     height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    margin: 0 auto;
+}
+
+.hero {
+    min-height: 100vh;
+    background-color: #004643;
+    padding: 2rem 0;
+}
+
+.contentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem 8rem;
+}
+
+.discoverButton {
+    border: 0;
+    background-color: #F9BC60;
+    padding: 14px;
+    width: 10rem;
+    border-radius: 1px;
+    font-size: 1rem;
+}
+
+.aboutSection {
+    background: #ABD1C6;
+    height: 100vh;
+    padding: 5rem;
 }
