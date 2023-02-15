@@ -9,7 +9,7 @@ const services = [
 
     {
         id: '2',
-        img: '/media/icon/WebDesign.svg',
+        img: '/media/icon/webDesign.svg',
         title: 'Web Design',
         description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
 
@@ -23,13 +23,13 @@ const services = [
 
     },
 
-    {
-        id: '4',
-        img: '/media/icon/icons.svg',
-        title: 'Iconography',
-        description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
+    // {
+    //     id: '4',
+    //     img: '/media/icon/icons.svg',
+    //     title: 'Iconography',
+    //     description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
 
-    },
+    // },
 ]
 
 export default services;

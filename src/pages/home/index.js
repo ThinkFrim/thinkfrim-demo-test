@@ -1,5 +1,6 @@
 import './home.css';
 import Nav from "../../components/nav";
+import Cards from '../../components/cards';
 // import styles from '../../styles/colors.module.css'
 // import * as styles from './colors.module.css'
 
@@ -28,16 +29,17 @@ const Home = () => {
           </div>
         </div>
         <div className='aboutSection'>
-        <div className='aboutContainer'>
-          <div className='content flex items-center justify-between'>
-            <div className='title'>
-              <h1 className='text-6xl'>Services ,<br /> we provide</h1>
+          <div className='aboutContainer'>
+            <div className='content flex items-center justify-between'>
+              <div className='title'>
+                <h1 className='text-6xl'>Services ,<br /> we provide</h1>
+              </div>
+              <div className='subtitle'>
+                <h2 className='text-2xl'>We're a full-service web agency specializing in <br /> custom website design, development, maintenance, optimization, <br /> and marketing. Our expert team creates beautiful, user- <br /> friendly websites that drive results.</h2>
+              </div>
             </div>
-            <div className='subtitle'>
-              <h2 className='text-2xl'>We're a full-service web agency specializing in <br /> custom website design, development, maintenance, optimization, <br /> and marketing. Our expert team creates beautiful, user- <br /> friendly websites that drive results.</h2>
-            </div>
+            <Cards />
           </div>
-        </div>
         </div>
       </div>
     </div>
