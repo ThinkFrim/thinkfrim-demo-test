@@ -1,0 +1,59 @@
+:root {
+    --darkGreen: #004643;
+    --Rajah: #f9bc60;
+    --White: #fffffe;
+    --CarminePink: #e16162;
+    --pasetBlue: #abd1c6;
+    --platinum: #e8e4e6;
+    --darkGreenBg: #004643;
+    --RajahBg: #f9bc60;
+    --White: #fffffe;
+    --CarminePinkBg: #e16162;
+    --pasetBlueBg: #abd1c6;
+    --platinumBg: #e8e4e6;
+}
+
+.darkGreen {
+    color: var(--darkGreen);
+}
+
+.darkGreenBg {
+    background: var(--darkGreenBg);
+}
+
+
+.Rajah {
+    color: var(--Rajah);
+}
+
+.RajahBg {
+    background: var(--RajahBg);
+}
+
+.White {
+    color: var(--White);
+}
+
+.CarminePink {
+    color: var(--CarminePink);
+}
+
+.CarminePinkBg {
+    background: var(--CarminePinkBg);
+}
+
+.pastelBlue {
+    color: var(--pasetBlue);
+}
+
+.pastelBlueBg {
+    background: --var(--pasetBlueBg);
+}
+
+.platinum {
+    color: var(--platinum);
+}
+
+.platinumBg {
+    background: var(--platinumBg);
+}
