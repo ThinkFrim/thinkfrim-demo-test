@@ -1,35 +1,36 @@
-const services = [
+const aboutService = [
     {
         id: '1',
-        img: '/media/icon/Circle.svg',
-        title: 'Brand Identity',
-        description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
+        numbers: '1',
+        img: '/media/images/div.png',
+        // title: 'Brand Identity',
+        // description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
 
     },
 
     {
         id: '2',
-        img: '/media/icon/webDesign.svg',
-        title: 'Web Design',
-        description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
+        numbers: '1',
+        img: '/media/images/div.png',
+        // title: 'Web Design',
 
     },
 
     {
         id: '3',
-        img: '/media/icon/mobile.svg',
-        title: 'Mobile Design',
-        description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
+        numbers: '1',
+        img: '/media/images/div.png',
+        // title: 'Mobile Design',
 
     },
 
-    // {
-    //     id: '4',
-    //     img: '/media/icon/icons.svg',
-    //     title: 'Iconography',
-    //     description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
+    {
+        id: '4',
+        numbers: '1',
+        img: '/media/images/div.png',
 
-    // },
+    },
+
 ]
 
-export default services;
+export default aboutService;
