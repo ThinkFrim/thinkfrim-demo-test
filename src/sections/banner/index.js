@@ -15,7 +15,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div>
-                    <img src="/media/illustrator/laptop and charts.svg" alt="" />
+                    <img src="/media/illustrator/laptop and charts (2).svg" alt="" />
                 </div>
             </div>
         </section>

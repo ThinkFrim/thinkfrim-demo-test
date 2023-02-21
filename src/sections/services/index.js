@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutService from '../../static/Data/aboutData'
+import './services.css'
 
 const Services = () => {
   return (
@@ -15,7 +16,10 @@ const Services = () => {
             {
               aboutService.map((items) => {
                 return (
-                  <div>
+                  <div className='imgHolder'>
+                    <div className='Content mx-5'>
+                      <h1 className='White text-2xl'>{items.numbers}</h1>
+                    </div>
                     <img className='imgs' src={items.img} alt="" width={500} />
                   </div>
                 )

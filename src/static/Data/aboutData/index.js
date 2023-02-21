@@ -1,9 +1,9 @@
 const aboutService = [
     {
         id: '1',
-        numbers: '1',
+        numbers: '01',
         img: '/media/images/div (3).png',
-        icon: '',
+        icon: '/media/icon/arrow.svg',
         title: 'Brand Identity + Positioning',
         // description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
 
@@ -11,8 +11,8 @@ const aboutService = [
 
     {
         id: '2',
-        numbers: '1',
-        icon: '',
+        numbers: '02',
+        icon: '/media/icon/arrow.svg',
         img: '/media/images/div.png',
         title: 'Web Design + Development',
 
@@ -20,8 +20,8 @@ const aboutService = [
 
     {
         id: '3',
-        numbers: '1',
-        icon: '',
+        numbers: '03',
+        icon: '/media/icon/arrow.svg',
         img: '/media/images/div (2).png',
         title: 'Mobile Design',
 
@@ -29,8 +29,8 @@ const aboutService = [
 
     {
         id: '4',
-        numbers: '1',
-
+        numbers: '04',
+        icon: '/media/icon/arrow.svg',
         img: '/media/images/div (1).png',
         title: 'Advertising + Branded Content'
 
