@@ -12,13 +12,17 @@ const Services = () => {
           <p className='stroke text-'>We're a full-service web agency specializing in custom website design, development, <br /> maintenance, optimization, and marketing. Our expert team creates beautiful, user-friendly websites <br /> that drive results.</p>
         </div>
         <div className='imgContainer my-5'>
-          <div className='img grid grid-cols-4'>
+          <div className='img grid max-sm:grid-cols-1 grid-cols-4'>
             {
               aboutService.map((items) => {
                 return (
                   <div className='imgHolder'>
                     <div className='Content mx-5'>
-                      <h1 className='White text-2xl'>{items.numbers}</h1>
+                      <h1 className='White text-1xl'>{items.numbers}</h1>
+                      <h2 className='White text-2xl'>{items.title}</h2>
+                      <div className='arrows'>
+                        <img src="/media/icon/arrow.svg" alt="" />
+                      </div>
                     </div>
                     <img className='imgs' src={items.img} alt="" width={500} />
                   </div>
