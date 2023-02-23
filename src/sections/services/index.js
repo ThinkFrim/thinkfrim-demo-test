@@ -1,17 +1,18 @@
 import React from 'react'
 import aboutService from '../../static/Data/aboutData'
+import LatestProjects from '../ourwork'
 import './services.css'
 
 const Services = () => {
   return (
     <div className='services'>
-      <div className='my-20'>
+      <div className='pt-20'>
         <div className='text-center'>
           <h1 className='text-3xl'>Services we provide</h1>
           <h2 className='text-2xl stroke py-3 font-light'>We build design that build your business</h2>
           <p className='stroke text-'>We're a full-service web agency specializing in custom website design, development, <br /> maintenance, optimization, and marketing. Our expert team creates beautiful, user-friendly websites <br /> that drive results.</p>
         </div>
-        <div className='imgContainer my-5'>
+        <div className='imgContainer mt-5'>
           <div className='img grid max-sm:grid-cols-1 grid-cols-4'>
             {
               aboutService.map((items) => {

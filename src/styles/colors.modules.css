@@ -1,6 +1,7 @@
 :root {
     --chineseBlack: #0f0e17;
     --chineseBlackBg: #0f0e17;
+    --GunMetalBg: #2F2D3B;
     --White: #fffffe;
     --americanOrange: #ff8906;
     --americanOrangeBg: #F9BC60;
@@ -32,4 +33,12 @@
 
 .crayola {
     color: #a7a9be;
+}
+
+.razzMatazz {
+    background: var(--razzMatazz);
+}
+
+.GunMetalBg {
+    background: var(--GunMetalBg);
 }
