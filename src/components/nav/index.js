@@ -4,7 +4,7 @@ const Nav = () => {
       <div className="logoContainer">
         <img src="/media/logo/ThinkFrimLogo.svg" alt="" />
       </div>
-      <ul className="flex gap-8 max-sm:hidden text-2xl White mx-52">
+      <ul className="flex gap-8 max-sm:hidden text-2xl White lg:mx-52">
         <li><a href="">About</a></li>
         <li><a href="">Team</a></li>
         <li><a href="">Contact Us</a></li>
