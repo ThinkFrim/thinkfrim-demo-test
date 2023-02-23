@@ -1,9 +1,9 @@
 :root {
-    --chineseBlack: #16170E;
-    --chineseBlackBg: #16170E;
+    --chineseBlack: #0f0e17;
+    --chineseBlackBg: #0f0e17;
     --White: #fffffe;
     --americanOrange: #ff8906;
-    --americanOrangeBg: #ff8906;
+    --americanOrangeBg: #F9BC60;
     --crayola: #a7a9be;
     --crayolaBg: #a7a9be;
     --fireOpal: #f25f4c;
@@ -30,6 +30,6 @@
     color: var(--White);
 }
 
-.crayola{
+.crayola {
     color: #a7a9be;
 }

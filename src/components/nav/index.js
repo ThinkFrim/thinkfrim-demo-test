@@ -12,6 +12,9 @@ const Nav = () => {
           <img src="/media/icon/Email.svg" alt="" />
         </div>
       </ul>
+
+      <div className="hidden">
+      </div>
     </nav>
   )
 }

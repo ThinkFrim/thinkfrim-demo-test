@@ -16,7 +16,7 @@ const Services = () => {
             {
               aboutService.map((items) => {
                 return (
-                  <div className='imgHolder'>
+                  <div className='imgHolder' key={items.id}>
                     <div className='Content mx-5'>
                       <h1 className='White text-1xl'>{items.numbers}</h1>
                       <h2 className='White text-2xl'>{items.title}</h2>
