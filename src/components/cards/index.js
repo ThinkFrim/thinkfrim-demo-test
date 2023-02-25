@@ -8,7 +8,7 @@ const Cards = () => {
                 {
                     latestWork.map((cardItems) => {
                         return (
-                            <div className="contentContainer flex chineseBlackBg p-3 px-2 items-center" key={cardItems.id}>
+                            <div className="contentContainer flex max-sm:flex-col chineseBlackBg p-3 px-2 items-center" key={cardItems.id}>
                                 <div className="cardContent px-12">
                                     <div>
                                         <h1 className="White text-4xl mb-5">{cardItems.title}</h1>
@@ -19,7 +19,7 @@ const Cards = () => {
                                         <h1 className="White text-lg">See Project</h1>
                                     </div>
                                 </div>
-                                <img src={cardItems.img} className="w" width={600} alt="" />
+                                <img src={cardItems.img} className="flex flex-row-reverse" width={600} alt="" />
                             </div>
                         )
                     })
