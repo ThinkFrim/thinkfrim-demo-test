@@ -3,15 +3,13 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer id='footer'>
-      <div className="footerContentHolder chineseBlackBg flex flex-col items-center pt-16">
-        <div className='RajahBg contactBox w-1/2 flex items-center justify-between px-10'>
-          <h1 className='text-4xl'>Do you have any project ?</h1>
-          <img src="/media/illustrator/footerDesing.svg" alt="" />
-          <button className='contactFooterBtn darkGreenBg p-3 w-1/6 White text-1xl'>Contact Us</button>
+      <div className='chineseBlackBg footerHolder flex items-center'>
+        <div className='footerContent White pt-10'>
+          <a href="tel:+96171455206">71455206</a>
+          <h1>Location, address</h1>
+          <a href="mailto: thinkfrim@gmail.com">thinkfrim@gmail</a>
         </div>
-        <div>
-
-        </div>
+        <img src="/media/illustrator/contactPhone.svg" alt="" style={{zIndex: 0,}} />
       </div>
     </footer>
   )

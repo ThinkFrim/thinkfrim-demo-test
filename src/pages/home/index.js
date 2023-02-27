@@ -13,7 +13,7 @@ const Home = () => {
       <Services />
       <LatestProjects />
       <Team />
-      <Footer />
+      {/* <Footer /> */}
     </HashRouter>
   )
 }

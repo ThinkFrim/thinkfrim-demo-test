@@ -5,3 +5,11 @@
 .contactFooterBtn {
     border-radius: 15px;
 }
+
+footer {
+    background: url('/public/media/illustrator/Footer.svg') no-repeat;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    /* background-repeat: repeat-x; */
+}

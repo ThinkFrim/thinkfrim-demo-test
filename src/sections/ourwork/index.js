@@ -6,9 +6,9 @@ const LatestProjects = () => {
     return (
         <div className='ourWorkContainer GunMetalBg h-full '>
             <div>
-                <div className='flex max-sm:flex-col items-center justify-between mx-6 pt-5'style={{padding:'50px'
+                <div className='flex items-center max-sm:px-10 justify-between mx-6 pt-5'style={{padding:'50px'
                 }}>
-                    <h1 className='White text-5xl'>Our Latest Work</h1>
+                    <h1 className='White text-5xl max-sm:text-4xl'>Our Latest Work</h1>
                     <div>
                         <img src="/media/icon/showAll.svg" alt="arrow.svg" />
                     </div>
