@@ -1,35 +1,41 @@
-const services = [
+const aboutService = [
     {
         id: '1',
-        img: '/media/icon/Circle.svg',
-        title: 'Brand Identity',
-        description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
+        numbers: '01',
+        img: '/media/images/div (3).png',
+        icon: '/media/icon/arrow.svg',
+        title: 'Brand Identity + Positioning',
+        // description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
 
     },
 
     {
         id: '2',
-        img: '/media/icon/webDesign.svg',
-        title: 'Web Design',
-        description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
+        numbers: '02',
+        icon: '/media/icon/arrow.svg',
+        img: '/media/images/div.png',
+        title: 'Web Design + Development',
 
     },
 
     {
         id: '3',
-        img: '/media/icon/mobile.svg',
+        numbers: '03',
+        icon: '/media/icon/arrow.svg',
+        img: '/media/images/div (2).png',
         title: 'Mobile Design',
-        description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
 
     },
 
-    // {
-    //     id: '4',
-    //     img: '/media/icon/icons.svg',
-    //     title: 'Iconography',
-    //     description: 'we specialize in helping businesses establish a strong and consistent brand identity that resonates with their target audience.',
+    {
+        id: '4',
+        numbers: '04',
+        icon: '/media/icon/arrow.svg',
+        img: '/media/images/div (1).png',
+        title: 'Advertising + Branded Content'
 
-    // },
+    },
+
 ]
 
-export default services;
+export default aboutService;

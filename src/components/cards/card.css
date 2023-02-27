@@ -1,0 +1,45 @@
+.contentContainer {
+    width: 55vw;
+    margin: 1vh 0;
+}
+
+.contentContainer:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.contentContainer:nth-child(4) {
+    flex-direction: row-reverse;
+}
+
+/* 
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.image {
+    max-width: 30vw;
+    height: 40vh;
+    margin: auto;
+}
+
+.cardContent {
+    height: 39.4vh;
+
+}
+
+.title {
+    font-size: 3vw;
+}
+
+.details {
+    width: 60%;
+    margin: 8% 15%;
+}
+
+.see-projects {
+    margin-top: 5vh;
+} */

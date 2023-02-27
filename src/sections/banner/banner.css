@@ -1,0 +1,15 @@
+
+.root {
+    height: 1px;
+    min-height: 100vh;
+}
+
+.bannerButton {
+    border-radius: 15px;
+    min-width: 15rem;
+}
+
+/* .imgs {
+    filter: grayscale(100%);
+} */
+

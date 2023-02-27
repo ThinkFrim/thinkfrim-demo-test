@@ -1,0 +1,55 @@
+:root {
+    --chineseBlack: #0f0e17;
+    --chineseBlackBg: #0f0e17;
+    --darkGreenBg: #004643;
+    --GunMetalBg: #2F2D3B;
+    --White: #fffffe;
+    --americanOrange: #ff8906;
+    --americanOrangeBg: #ff8906;
+    --Rajah: #F9BC60;
+    --RajahBg: #F9BC60;
+    --crayola: #a7a9be;
+    --crayolaBg: #a7a9be;
+    --fireOpal: #f25f4c;
+    --razzMatazz: #e53170;
+}
+
+.chineseBlack {
+    color: var(--chineseBlack);
+}
+
+.chineseBlackBg {
+    background: var(--chineseBlackBg);
+}
+
+.americanOrange {
+    color: var(--americanOrange);
+}
+
+.americanOrangeBg {
+    background: var(--americanOrangeBg);
+}
+
+.RajahBg {
+    background: var(--RajahBg);
+}
+
+.White {
+    color: var(--White);
+}
+
+.crayola {
+    color: #a7a9be;
+}
+
+.razzMatazz {
+    background: var(--razzMatazz);
+}
+
+.GunMetalBg {
+    background: var(--GunMetalBg);
+}
+
+.darkGreenBg {
+    background: var(--darkGreenBg);
+}
