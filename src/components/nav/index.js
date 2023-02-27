@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
-
+// import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -14,13 +15,19 @@ const Nav = () => {
       </div>
       <ul className="flex gap-8 max-sm:hidden text-2xl White lg:mx-52">
         <li>
-          <a href="">About</a>
+          <HashLink smooth to="#services">
+            About
+          </HashLink>
         </li>
         <li>
-          <a href="">Team</a>
+          <HashLink smooth to="#Team">
+            Team
+          </HashLink>
         </li>
         <li>
-          <a href="">Contact Us</a>
+          <HashLink smooth to="">
+            Contact us
+          </HashLink>
         </li>
         <div>
           <img src="/media/icon/Email.svg" alt="" />

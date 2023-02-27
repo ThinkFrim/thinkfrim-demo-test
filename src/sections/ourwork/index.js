@@ -6,7 +6,7 @@ const LatestProjects = () => {
     return (
         <div className='ourWorkContainer GunMetalBg h-full '>
             <div>
-                <div className='flex items-center justify-between mx-6 pt-5'style={{padding:'50px'
+                <div className='flex max-sm:flex-col items-center justify-between mx-6 pt-5'style={{padding:'50px'
                 }}>
                     <h1 className='White text-5xl'>Our Latest Work</h1>
                     <div>

@@ -2,7 +2,7 @@ const TeamData = [
     {
         id: 1,
         name: 'Aram',
-        title: 'Founder',
+        title: 'Co-Founder',
         img: '/media/images/Rectangle 46.png'
     },
 

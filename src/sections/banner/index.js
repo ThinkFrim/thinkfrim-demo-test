@@ -11,7 +11,7 @@ const Banner = () => {
                     <h1 className='White text-5xl max-sm:text-center max-sm:text-3xl py-4'>Transform your online image <br /> with a professional website.</h1>
                     <h2 className='White text-3xl  max-sm:text-center max-sm:text-lg py-6'>Get ahead of the competition with <br /> a custom-built website</h2>
                     <div>
-                        <button className='americanOrangeBg max-sm:text-sm chineseBlack text-2xl p-4 bannerButton'>Discover</button>
+                        <button className='RajahBg max-sm:text-sm chineseBlack text-2xl p-4 bannerButton'>Discover</button>
                     </div>
                 </div>
                 <div>

@@ -5,7 +5,7 @@ import './services.css'
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
       <div className='pt-20'>
         <div className='text-center'>
           <h1 className='text-3xl'>Services we provide</h1>
