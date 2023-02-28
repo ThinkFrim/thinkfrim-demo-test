@@ -1,15 +1,15 @@
-.contactBox {
-    border-radius: 20px;
+.footer {
+    position: relative;
 }
 
-.contactFooterBtn {
-    border-radius: 15px;
-}
-
-footer {
-    background: url('/public/media/illustrator/Footer.svg') no-repeat;
+.wave {
     position: absolute;
-    left: 0px;
-    right: 0px;
-    /* background-repeat: repeat-x; */
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    /* height: 60px; */
+    background: url('/public/media/illustrator/wavefooter.svg');
+    background-size: cover;
+    /* transform-origin: bottom center; */
+    /* transform: scaleY(-1); */
 }
