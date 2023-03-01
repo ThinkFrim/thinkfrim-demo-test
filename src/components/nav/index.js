@@ -9,7 +9,7 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="flex items-center justify-between px-5">
+    <nav className="flex items-center justify-between px-5 py-5">
       <div className="logoContainer">
         <img src="/media/logo/ThinkFrimLogo.svg" className='max-sm:w-48 max-sm:mr-7' alt="" />
       </div>

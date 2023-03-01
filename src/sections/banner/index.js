@@ -3,9 +3,7 @@ import './banner.css'
 const Banner = () => {
     return (
         <section id='banner' className='root chineseBlackBg px-6'>
-            <div className="py-5">
-                <Nav />
-            </div>
+            <Nav />
             <div className='flex max-sm:flex-col max-md:flex-col max-md:justify-center items-center justify-between mx-20 py-24'>
                 <div className='content'>
                     <h1 className='White text-5xl max-sm:text-[30px] max-sm:text-center py-4'>Transform your online image <br /> with a professional website.</h1>
