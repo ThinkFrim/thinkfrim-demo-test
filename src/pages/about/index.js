@@ -6,7 +6,7 @@ const AboutUs = () => {
     <div className='about chineseBlackBg h-[100vh]'>
       <Nav />
       <div className='grid grid-cols-2 py-[10rem]'>
-        <div className='RaisinBlackBg relative w-[550px] overflow-hidden h-[400px] mx-5'>
+        <div className='RaisinBlackBg relative w-[550px] overflow-hidden h-[500px] ml-6'>
           <div className='absolute bottom-0'>
             <img className='w-[300px]' src="/media/illustrator/dotts.svg" alt="" />
           </div>
@@ -14,12 +14,12 @@ const AboutUs = () => {
             <h1 className='uppercase White font-bold text-[157px] leading-[0]'>About</h1>
           </div>
         </div>
-        <div className='mr-14'>
+        <div className='absolute left-[35vw]'>
           <h1 className='White py-5 text-4xl font-semibold'>ThinkFrim Agency is a premium design agency.<br />
             We utilize technology and an unmatched <br />
             work ethic to elevate your brand through <br />
             the web channel.</h1>
-          <p className='font-light White text-2xl '>We're based out of Beirut, Lebanon with a consultative & <br />
+          <p className='font-light White text-3xl '>We're based out of Beirut, Lebanon with a consultative & <br />
             digital production presence across the continental <br />
             Lebanon.</p>
         </div>
