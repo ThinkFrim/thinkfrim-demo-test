@@ -4,6 +4,7 @@
     --darkGreenBg: #004643;
     --GunMetalBg: #2F2D3B;
     --White: #fffffe;
+    --RaisinBlackBg: #1C1A26;
     --americanOrange: #ff8906;
     --americanOrangeBg: #ff8906;
     --Rajah: #F9BC60;
@@ -52,4 +53,8 @@
 
 .darkGreenBg {
     background: var(--darkGreenBg);
+}
+
+.RaisinBlackBg {
+    background: var(--RaisinBlackBg);
 }
