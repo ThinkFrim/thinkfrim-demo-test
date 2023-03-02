@@ -13,6 +13,7 @@
     --crayolaBg: #a7a9be;
     --fireOpal: #f25f4c;
     --razzMatazz: #e53170;
+    --bronzeMetallic: #AF824C;
 }
 
 .chineseBlack {
@@ -57,4 +58,8 @@
 
 .RaisinBlackBg {
     background: var(--RaisinBlackBg);
+}
+
+.bronzeMetallicBg {
+    background: var(--bronzeMetallic);
 }

@@ -15,11 +15,12 @@ const AboutUs = () => {
           </div>
         </div>
         <div className='absolute left-[35vw]'>
-          <h1 className='White py-5 text-4xl font-semibold'>ThinkFrim Agency is a premium design agency.<br />
+          <h1 className='White py-5 text-4xl font-semibold'>
+            ThinkFrim Agency is a premium design agency.<br />
             We utilize technology and an unmatched <br />
             work ethic to elevate your brand through <br />
             the web channel.</h1>
-          <p className='font-light White text-3xl '>We're based out of Beirut, Lebanon with a consultative & <br />
+          <p className='font-light White text-2xl'>We're based out of Beirut, Lebanon with a consultative & <br />
             digital production presence across the continental <br />
             Lebanon.</p>
         </div>
