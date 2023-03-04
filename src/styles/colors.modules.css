@@ -14,6 +14,7 @@
     --fireOpal: #f25f4c;
     --razzMatazz: #e53170;
     --bronzeMetallic: #AF824C;
+    --BlueGreenBg: #0AA2C3;
 }
 
 .chineseBlack {
@@ -62,4 +63,12 @@
 
 .bronzeMetallicBg {
     background: var(--bronzeMetallic);
+}
+
+.BlueGreenBg {
+    background: var(--BlueGreenBg);
+}
+
+.BlueGreen {
+    color: var(--BlueGreenBg);
 }

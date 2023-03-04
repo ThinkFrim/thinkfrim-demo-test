@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../components/footer'
 import Nav from '../../components/nav'
 
 const AboutUs = () => {
@@ -25,6 +26,7 @@ const AboutUs = () => {
             Lebanon.</p>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

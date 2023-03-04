@@ -2,18 +2,19 @@ import Services from '../../sections/services';
 import Banner from '../../sections/banner';
 import LatestProjects from '../../sections/ourwork';
 import Team from '../../sections/team';
-import { HashRouter } from 'react-router-dom';
-import Contactus from '../../sections/contactus';
+import Footer from '../../components/footer/index';
+import ContactCard from '../../components/ContactCard';
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Banner />
       <Services />
       <LatestProjects />
       <Team />
-      <Contactus />
-    </>
+      <ContactCard />
+      <Footer />
+    </div>
   )
 }
 
