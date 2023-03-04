@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import Banner from '../../sections/banner';
+
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -11,7 +13,9 @@ const Nav = () => {
   return (
     <nav className="flex items-center justify-between px-5 py-5">
       <div className="logoContainer">
-        <img src="/media/logo/ThinkFrimLogo.svg" className='max-sm:w-48 max-sm:mr-7' alt="" />
+        <NavLink to="/">
+          <img src="/media/logo/ThinkFrimLogo.svg" className='max-sm:w-48 max-sm:mr-7' alt="" />
+        </NavLink>
       </div>
       <ul className="flex gap-8 max-sm:hidden text-2xl White lg:mx-52">
         <li>
@@ -25,7 +29,7 @@ const Nav = () => {
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="">
+          <HashLink smooth to="/Contact">
             Contact us
           </HashLink>
         </li>

@@ -4,9 +4,9 @@ import Nav from '../../components/nav'
 
 const AboutUs = () => {
   return (
-    <div className='about chineseBlackBg h-[100vh]'>
+    <div className='about chineseBlackBg h-[150vh]'>
       <Nav />
-      <div className='grid grid-cols-2 py-[10rem]'>
+      <div className='grid grid-cols-2 py-[10rem] mb-[45%]'>
         <div className='RaisinBlackBg relative w-[550px] overflow-hidden h-[500px] ml-6'>
           <div className='absolute bottom-0'>
             <img className='w-[300px]' src="/media/illustrator/dotts.svg" alt="" />
