@@ -8,7 +8,7 @@ const Banner = () => {
                 <div className="max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:order-first">
                     <div className="max-sm:w-[100vw]">
                         <h1 className='White text-5xl max-sm:text-[25px] max-sm:text-center max-sm:leading-[2.5rem] max-sm:py-2 py-5'>Transform your online image <br /> with a professional website.</h1>
-                        <h2 className='White text-3xl max-sm:text-[20px] max-sm:text-center max-sm:leading-[2rem] max-sm:py-3 py-5'>Get ahead of the competition with <br /> a custom-built website</h2>
+                        <h2 className='White text-3xl font-light max-sm:text-[20px] max-sm:text-center max-sm:leading-[2rem] max-sm:py-3 py-5'>Get ahead of the competition with <br /> a custom-built website</h2>
                         <button className='max-sm:hidden RajahBg rounded-[15px] font-medium darkDeepGreen min-w-[40%] max-sm:text-lg  chineseBlack text-2xl p-4 max-sm:item block max-sm:mx-auto max-sm:max-w-xs'>Discover</button>
                     </div>
                 </div>

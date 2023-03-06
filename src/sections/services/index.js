@@ -5,12 +5,12 @@ import './services.css'
 
 const Services = () => {
   return (
-    <div className='services' id='services'>
-      <div className='pt-20'>
+    <div className='services GunMetalBg' id='services'>
+      <div className='pt-[5vh]'>
         <div className='text-center'>
-          <h1 className='text-3xl'>Services we provide</h1>
-          <h2 className='text-2xl stroke py-3 font-light'>We build design that build your business</h2>
-          <p className='stroke text-'>We're a full-service web agency specializing in custom website design, development, <br /> maintenance, optimization, and marketing. Our expert team creates beautiful, user-friendly websites <br /> that drive results.</p>
+          <h1 className='text-[3rem] White'>Services we provide</h1>
+          <h2 className='text-[2rem] White py-3 font-light'>We build design that build your business</h2>
+          <p className='White font-light text-[1.5rem]'>We're a full-service web agency specializing in custom website design, development, <br /> maintenance, optimization, and marketing. Our expert team creates beautiful, user-friendly websites <br /> that drive results.</p>
         </div>
         <div className='imgContainer mt-5'>
           <div className='img grid max-sm:grid-cols-1 grid-cols-4'>
