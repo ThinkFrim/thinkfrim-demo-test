@@ -6,8 +6,8 @@ const Team = () => {
     return (
         <div className='TeamContainer' id='Team'>
             <div className='pt-20'>
-                <div className='flex items-center justify-between mx-20'>
-                    <h1 className='chineseBlack text-4xl break-words'>Meet Multi-Talented people who are passionate about <br /> their craft</h1>
+                <div className='flex max-sm:flex-col max-sm:mx-auto max-sm:max-w-xs items-center justify-between mx-20'>
+                    <h1 className='chineseBlack text-4xl break-words max-sm:w-[100vw] max-sm:text-[2rem] max-sm:py-[1rem]'>Meet Multi-Talented people who are passionate about <br /> their craft</h1>
                     <button className='viewTeam GunMetalBg White text-xl'>Meet The Team</button>
                 </div>
                 <div className='mt-20'>

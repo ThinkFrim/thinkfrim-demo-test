@@ -2,6 +2,7 @@
     --chineseBlack: #0f0e17;
     --chineseBlackBg: #0f0e17;
     --darkGreenBg: #004643;
+    --darkDeepGreen: #001E1D;
     --GunMetalBg: #2F2D3B;
     --White: #fffffe;
     --RaisinBlackBg: #1C1A26;
@@ -71,4 +72,8 @@
 
 .BlueGreen {
     color: var(--BlueGreenBg);
+}
+
+.darkDeepGreen {
+    color: var(--darkDeepGreen);
 }
