@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import Banner from '../../sections/banner';
+import { Sling as Hamburger } from 'hamburger-react'
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,10 +12,13 @@ const Nav = () => {
   };
   return (
     <nav className="flex items-center justify-between px-5 py-5">
-      <div className="logoContainer">
+      <div className="logoContainer flex items-center gap-[4rem]">
         <NavLink to="/">
-          <img src="/media/logo/ThinkFrimLogo.svg" className='max-sm:w-48 max-sm:mr-7' alt="" />
+          <img src="/media/logo/ThinkFrimLogo.svg" className='max-sm:w-48 max-sm:mr-7 max-sm:max-w[100vw]' alt="" />
         </NavLink>
+        <div className='2xl:hidden md:hidden '>
+          <Hamburger toggled={isOpen} onToggle={toggleNavbar} toggle={setIsOpen} duration={0.8} direction="right" color='#F9BC60' />
+        </div>
       </div>
       <ul className="flex gap-8 max-sm:hidden text-2xl White lg:mx-52">
         <li>
