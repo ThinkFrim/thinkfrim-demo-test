@@ -1,13 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-    // 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+const Nth = require('tailwind-nth-child');
+
+  module.exports = {
+    content: [
+  "./src/**/*.{js, jsx, ts, tsx}",
+    // 'node_modules/flowbite-react/**/*.{js, jsx, ts, tsx}'
   ],
   theme: {
-    extend: {},
+    extend: { },
   },
   plugins: [
-    // require('flowbite/plugin')
+  // require('flowbite/plugin')
   ],
 }
