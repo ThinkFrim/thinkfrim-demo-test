@@ -12,15 +12,15 @@ const Nav = () => {
   };
   return (
     <nav className="flex items-center justify-between px-5 py-5">
-      <div className="logoContainer max-sm:flex max-sm:items-center max-sm:justify-between  max-md:flex max-md:items-center max-2xl:flex max-2xl:items-center max-sm:w-[100%] max-md:w-[100vw]">
+      <div className="logoContainer max-sm:flex max-sm:items-center flex justify-between  max-md:flex max-md:items-center max-xl:flex max-xl:items-center max-sm:w-[100%]">
         <NavLink to="/">
           <img src="/media/logo/ThinkFrimLogo.svg" className='max-sm:w-48 max-sm:mr-7 max-sm:max-w[100vw]' alt="" />
         </NavLink>
-        <div className='2xl:hidden md:hidden'>
+        <div className='2xl:hidden'>
           <Hamburger toggled={isOpen} onToggle={toggleNavbar} toggle={setIsOpen} duration={0.8} direction="right" color='#F9BC60' />
         </div>
       </div>
-      <ul className="flex gap-8 max-sm:hidden max-md:hidden max-2xl:hidden text-2xl White lg:mx-52">
+      <ul className="flex gap-8 max-sm:hidden max-md:hidden max-xl:hidden text-2xl White lg:mx-52">
         <li>
           <HashLink smooth to="#services">
             About
