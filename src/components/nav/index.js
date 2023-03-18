@@ -11,7 +11,7 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="flex items-center justify-between px-5 py-5">
+    <nav className="flex items-center justify-between max-sm:px-[1rem] px-[3rem] py-[2rem]">
       <div className="logoContainer max-sm:flex max-sm:items-center flex justify-between  max-md:flex max-md:items-center max-xl:flex max-xl:items-center max-sm:w-[100%]">
         <NavLink to="/">
           <img src="/media/logo/ThinkFrimLogo.svg" className='max-sm:w-48 max-sm:mr-7 max-sm:max-w[100vw]' alt="" />
