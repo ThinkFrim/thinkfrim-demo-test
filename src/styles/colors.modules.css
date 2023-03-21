@@ -16,6 +16,8 @@
     --razzMatazz: #e53170;
     --bronzeMetallic: #AF824C;
     --BlueGreenBg: #0AA2C3;
+    --borderGrey: ##87868b;
+    --desert: #AF824C;
 }
 
 .chineseBlack {
@@ -76,4 +78,12 @@
 
 .darkDeepGreen {
     color: var(--darkDeepGreen);
+}
+
+.borderGrey {
+    background: var(--borderGrey);
+}
+
+.desertBg {
+    background: var(--desert);
 }
