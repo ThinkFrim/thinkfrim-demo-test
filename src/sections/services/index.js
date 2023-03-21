@@ -10,7 +10,7 @@ const Services = () => {
           <p className='White font-light text-[1.3rem] max-sm:text-1xl max-sm:item block max-sm:mx-auto max-sm:max-w-[100vw]'>We're a full-service web agency specializing in custom website design, development, <br class="hidden lg:inline" /> maintenance, optimization, and marketing. Our expert team creates beautiful, user-friendly websites <br /> that drive results.</p>
         </div>
         <div className='imgContainer pt-5'>
-          <div className='img grid grid-cols-4 max-sm:grid-cols-1 sm:grid-cols-1 md:grid-cols-4 2xl:grid-cols-4'>
+          <div className='img grid grid-cols-1 md:grid-cols-4'>
             {
               aboutService.map((items) => {
                 return (
