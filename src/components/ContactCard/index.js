@@ -3,11 +3,12 @@ import React from 'react'
 const ContactCard = () => {
     return (
         <div className='chineseBlackBg h-[100vh]'>
-            <div className='flex flex-col items-center pt-20'>
-                <div className='Box RajahBg max-w-[50%] max-sm:max-w-[100%] sm:max-w-[100%] rounded-[15px] max-sm:p-[2rem] flex items-center justify-between max-sm:justify-center px-15 sm:px-[2rem]'>
-                    <h1 className='chineseBlack text-3xl max-sm:text-xl sm:text-xl max-sm:pl-[1rem]'>Do you have Any Project?</h1>
-                    <img className='max-sm:hidden sm:w-[15%]' src="/media/illustrator/footerDesing.svg" alt="" />
-                    <button className='darkGreenBg White text-2xl max-sm:text-base max-sm:w-[30vw] p-[1rem] sm:w-[30%] rounded-[20px]'>Contact Us</button>
+            <div className="flex justify-center pt-20">
+                <div className='RajahBg p-[4rem] min-w-[35%] rounded-[15px] max-sm:p-[1rem]'>
+                    <div className='flex items-center justify-between'>
+                        <h1 className='text-3xl  pr-5 w-full max-sm:text-xl'>Do you have Any Project?</h1>
+                        <button className='darkGreenBg w-[35%] p-[0.9rem] White rounded-[15px] max-sm:p-[0.5rem] max-sm:w-[100%] max-sm:text-sm'>Contact us</button>
+                    </div>
                 </div>
             </div>
         </div>

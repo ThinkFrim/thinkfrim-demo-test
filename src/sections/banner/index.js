@@ -2,15 +2,15 @@ import Nav from "../../components/nav"
 import './banner.css'
 const Banner = () => {
     return (
-        <section id="banner" className="chineseBlackBg max-sm:h-screen md:h-screen">
+        <section id="banner" className="chineseBlackBg h-screen xl:h-screen">
             <Nav />
-            <div className="flex items-center justify-between max-sm:flex-col mx-[6rem] mt-[2rem]">
-                <div className="White max-sm:text-center mb-[1rem]">
-                    <h1 className="text-5xl max-sm:text-2xl pb-4 font-semibold leading-[3.5rem] max-sm:w-screen">Transform your online image<br className="hidden md:inline" /> with a professional website</h1>
-                    <h2 className="text-3xl max-sm:text-lg font-light">Get ahead of the competition<br /> with a custom-built website</h2>
-                    <button className="RajahBg chineseBlack text-xl p-[1rem] rounded-[16px] mt-5">Discover</button>
+            <div class="flex flex-col items-center lg:flex-row xl:flex-row">
+                <div class="text-center md:text-center lg:text-left lg:w-1/2 xl:w-1/2 lg:pl-10 xl:pl-10">
+                    <h1 class="text-2xl White lg:text-3xl xl:text-5xl pb-4 font-semibold lg:leading-[3rem] xl:leading-[4rem]">Transform your online image<br class="hidden md:inline" /> with a professional website</h1>
+                    <h2 class="text-2xl White lg:text-2xl xl:text-3xl font-light">Get ahead of the competition <br /> with a custom-built website</h2>
+                    <button class="RajahBg w-[45%] 2xl:w-[30%] lg:max-w-[50%] md:w-[30vw] font-medium text-chineseBlack text-xl p-4 rounded-[16px] mt-5">Discover</button>
                 </div>
-                <img className="max-sm:max-w-[70vw]" src="/media/illustrator/laptop and charts (2).svg" alt="" />
+                <img class="min-w-[20%] lg:w-[50%] xl:w-[40%]  md:w-[50%] mt-5" src="/media/illustrator/laptop and charts (2).svg" alt="" />
             </div>
         </section>
 

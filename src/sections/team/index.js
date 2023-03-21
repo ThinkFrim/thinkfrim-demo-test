@@ -6,8 +6,8 @@ const Team = () => {
         <div className='TeamContainer' id='Team'>
             <div className='pt-20'>
                 <div className='flex max-sm:flex-col items-center justify-between mx-20'>
-                    <h1 className='chineseBlack text-4xl max-sm:text-[2rem] max-sm:py-[1rem] max-sm:w-[80vw] max-sm:text-center md:text-[2rem] sm:text-[2rem]'>Meet Multi-Talented people who are passionate about <br class="hidden lg:inline" /> their craft</h1>
-                    <button className='viewTeam p-[1rem] rounded-[20px] GunMetalBg White 2xl:max-w-[14%] md:text-[1rem] md:w-[30%] sm:w-[20%]'>Meet The Team</button>
+                    <h1 className='chineseBlack 2xl:text-4xl max-sm:text-[2rem] max-sm:py-[1rem] max-sm:w-[80vw] max-sm:text-center md:text-[2rem]'>Meet Multi-Talented people who are passionate about <br class="hidden lg:inline" /> their craft</h1>
+                    <button className='viewTeam p-[1rem] 2xl:w-[10vw] rounded-[20px] GunMetalBg White md:text-[1rem] md:w-[20%]'>Meet The Team</button>
                 </div>
                 <div className='mt-20'>
                     <div className='teamContainer flex max-sm:flex-col justify-center mt-16'>
@@ -19,11 +19,9 @@ const Team = () => {
                                             <h1 className='White text-4xl sm:text-2xl 2xl:text-4xl md:text-3xl'>{team.name}</h1>
                                             <h2 className='White text-[25px] md:text-[20px] font-light'>{team.title}</h2>
                                         </div>
-                                        <img className='object-cover object-center' src={team.img} alt="" width={500} />
+                                        <img className='' src={team.img} alt="" />
                                     </div>
-
                                 )
-
                             })
                         }
                     </div>

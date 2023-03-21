@@ -1,19 +1,16 @@
-import React, { useState } from 'react'
-// import Slideshow from '../../components/carousel';
-// import CarouselService from '../../components/carousel';
-import PhoneInput from 'react-phone-number-input';
-import 'react-phone-number-input/style.css';
-import lb from 'react-phone-number-input/locale/ru'
+import Nav from "../../components/nav";
 const Testing = () => {
-    const [phone, setPhone] = useState('');
     return (
-        <div className='flex justify-center chineseBlackBg h-[100vh]'>
-            <PhoneInput
-                placeholder="phone number"
-                labels={lb}
-                value={phone}
-                onChange={setPhone}
-            />
+        <div className='chineseBlackBg h-[100vh]'>
+            <Nav />
+            <div>
+                <div className="GunMetalBg w-[25%] h-[100%] mx-10">
+                    <h1 className="White text-3xl mb-5">Contact us:</h1>
+                    <div>
+                        <h1 className="White text-5xl">Let's work Together</h1>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

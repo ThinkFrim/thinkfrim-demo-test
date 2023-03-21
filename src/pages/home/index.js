@@ -8,12 +8,12 @@ import ContactCard from '../../components/ContactCard';
 const Home = () => {
   return (
     <div>
-      {/* <Banner />
-      <Services /> 
-      <LatestProjects />
-      <Team />
-      <ContactCard /> 
-      <Footer /> */}
+      <Banner />
+      {/* <Services /> */}
+      {/* <LatestProjects /> */}
+      {/* <Team /> */}
+      {/* <ContactCard /> */}
+      {/* <Footer /> */}
     </div>
   )
 }
