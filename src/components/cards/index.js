@@ -8,7 +8,7 @@ const Cards = () => {
                 {
                     latestWork.map((cardItems) => {
                         return (
-                            <div className="contentContainer flex max-sm:flex-col sm:flex-col md:flex-col 2xl:flex-row chineseBlackBg p-3 px-2 items-center" key={cardItems.id}>
+                            <div className="contentContainer flex flex-col  chineseBlackBg p-3 px-2 items-center" key={cardItems.id}>
                                 <div className="cardContent px-12 max-sm:px-3 max-sm:pb-5 sm:px-4">
                                     <div>
                                         <h1 className="White text-4xl mb-5">{cardItems.title}</h1>

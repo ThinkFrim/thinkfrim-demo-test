@@ -10,7 +10,7 @@ const Team = () => {
                     <button className='viewTeam p-[1rem] 2xl:w-[10vw] rounded-[20px] GunMetalBg White md:text-[1rem] md:w-[20%]'>Meet The Team</button>
                 </div>
                 <div className='mt-20'>
-                    <div className='teamContainer flex max-sm:flex-col justify-center mt-16'>
+                    <div className='teamContainer flex flex-col md:flex-row justify-center mt-16'>
                         {
                             TeamData.map((team) => {
                                 return (
@@ -19,7 +19,7 @@ const Team = () => {
                                             <h1 className='White text-4xl sm:text-2xl 2xl:text-4xl md:text-3xl'>{team.name}</h1>
                                             <h2 className='White text-[25px] md:text-[20px] font-light'>{team.title}</h2>
                                         </div>
-                                        <img className='' src={team.img} alt="" />
+                                        <img className='w-full md:w-screen' src={team.img} alt="" />
                                     </div>
                                 )
                             })
