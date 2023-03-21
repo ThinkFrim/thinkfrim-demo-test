@@ -16,14 +16,14 @@ const TeamData = [
     {
         id: 3,
         name: 'Rudy',
-        title: 'Lead UI UX',
+        title: 'Lead UI-UX',
         img: '/media/images/Rectangle 48.png'
     },
 
     {
         id: 4,
         name: 'Mark',
-        title: 'Front End Developer',
+        title: 'Developer',
         img: '/media/images/Rectangle 49.png'
     },
 ]

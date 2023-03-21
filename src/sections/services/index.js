@@ -22,7 +22,8 @@ const Services = () => {
                         <img src="/media/icon/arrow.svg" alt="" />
                       </div>
                     </div>
-                    <img className="imgs object-cover object-center w-full h-auto" src={items.img} alt="" />                  </div>
+                    <img className="imgs object-cover object-center w-full h-auto" src={items.img} alt="" />
+                  </div>
                 )
               })
             }
