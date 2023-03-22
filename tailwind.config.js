@@ -10,6 +10,6 @@ const Nth = require('tailwind-nth-child');
     extend: { },
   },
   plugins: [
-  // require('flowbite/plugin')
+  require('flowbite/plugin')
   ],
 }
