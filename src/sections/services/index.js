@@ -1,5 +1,5 @@
 import aboutService from '../../static/Data/aboutData'
-import './service.css'
+// import './service.css'
 // import { useState, useEffect } from 'react'
 const Services = () => {
   return (

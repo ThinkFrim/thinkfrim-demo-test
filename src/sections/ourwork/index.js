@@ -1,6 +1,6 @@
 import React from 'react'
 import Cards from '../../components/cards';
-import latestWork from '../../static/Data/latestWork';
+// import latestWork from '../../static/Data/latestWork';
 
 const LatestProjects = () => {
     return (
