@@ -2,7 +2,7 @@ import React from 'react'
 // import './contactcard.css'
 const ContactCard = () => {
     return (
-        <div className='chineseBlackBg h-[100vh]'>
+        <div className='chineseBlackBg pb-10 xl:h-[100vh]'>
             <div className="flex justify-center pt-20">
                 <div className='RajahBg p-[4rem] min-w-[35%] rounded-[15px] max-sm:p-[1rem]'>
                     <div className='flex items-center justify-between'>
