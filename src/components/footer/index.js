@@ -2,7 +2,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bottom-0 w-full chineseBlackBg" id="footer">
+    <footer className="bottom-0 pt-10 w-full chineseBlackBg" id="footer">
       {/* desktop & tablet only */}
       <div className="relative">
         <img className="hidden xl:block  xl:absolute xl:bottom-0 w-full z-10" src="/media/illustrator/LeftWave.svg" alt="LeftWave.svg" />

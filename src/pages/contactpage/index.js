@@ -2,6 +2,8 @@ import Nav from "../../components/nav";
 import emailjs from 'emailjs-com'
 import PhoneInput from 'react-phone-number-input';
 import React, { useRef, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './contact.css'
 import 'react-phone-number-input/style.css';
 const ContactUs = () => {
@@ -13,8 +15,10 @@ const ContactUs = () => {
         emailjs.sendForm('service_9krehvb', 'template_n4kts1h', form.current, '9kaC9PmbSn7PX5bOs')
             .then((result) => {
                 console.log(result.text);
+                toast.success('Email sent successfully!');
             }, (error) => {
                 console.log(error.text);
+                toast.error('Error sending email!');
             });
         // e.target.reset();
     }
@@ -33,7 +37,7 @@ const ContactUs = () => {
                     </div>
                 </div>
 
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={form}>
                     <div>
                         <h1 className="White text-2xl mb-3">Contact Info</h1>
                         <div className="flex flex-col w-4/6 mb-16">
@@ -51,24 +55,11 @@ const ContactUs = () => {
                             <textarea name="Message" placeholder="Message" className="w-4/6 mb-4 chineseBlackBg border-[1px] border-borderGrey  p-2 text-white px-4" ></textarea>
                         </div>
                         <div>
-                            <button className="text-white desertBg  p-1" type="submit">send now</button>
+                            <button className="text-white desertBg  p-1" type="submit" onClick={sendEmail}>send now</button>
                         </div>
                     </div>
                 </form>
-
-                {/* <input type="submit" value="Send" /> */}
-                {/* <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name="FullName" placeholder="Full Name" />
-                    <input type="email" name="email" placeholder="Email" />
-                    <PhoneInput
-                        placeholder="phone number"
-                        labels={lb}
-                        value={phone}
-                        onChange={setPhone}
-                    />
-
-                    
-                </form> */}
+                <ToastContainer />
             </div>
         </div>
     )
