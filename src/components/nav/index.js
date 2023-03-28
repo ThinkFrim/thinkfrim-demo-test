@@ -28,7 +28,7 @@ const Nav = () => {
               </HashLink>
             </li>
             <li>
-              <HashLink smooth className="block py-2 pl-3 pr-4 text-white rounded  md:hover:bg-transparent md:text-2xl md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white md:text-[20px] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" to="#About">
+              <HashLink smooth className="block py-2 pl-3 pr-4 text-white rounded  md:hover:bg-transparent md:text-2xl md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white md:text-[20px] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" to="/About">
                 About
               </HashLink>
             </li>

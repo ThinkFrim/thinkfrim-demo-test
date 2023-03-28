@@ -4,9 +4,9 @@ import Nav from '../../components/nav'
 
 const AboutUs = () => {
   return (
-    <div className='about chineseBlackBg h-[150vh]'>
+    <div className='chineseBlackBg h-[100vh] xl:h-[150vh]'>
       <Nav />
-      <div className='grid max-sm:grid-cols-1 grid-cols-2 py-[10rem] mb-[45%]'>
+      <div className='grid max-sm:grid-cols-1 grid-cols-2 pb-[15rem] xl:pb-[50rem]'>
         <div className='RaisinBlackBg relative w-[550px] max-sm:w-[350px] max-sm:left-[15px] overflow-hidden h-[500px] max-sm:h-[500px] ml-6'>
           <div className='absolute bottom-0'>
             <img className='w-[300px]' src="/media/illustrator/dotts.svg" alt="" />
@@ -26,7 +26,7 @@ const AboutUs = () => {
             Lebanon.</p>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
