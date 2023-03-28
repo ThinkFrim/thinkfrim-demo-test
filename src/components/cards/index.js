@@ -1,5 +1,4 @@
 import latestWork from "../../static/Data/latestWork";
-// import './card.css'
 
 const Cards = () => {
     return (

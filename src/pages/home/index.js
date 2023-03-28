@@ -1,6 +1,5 @@
 import Services from '../../sections/services';
 import Banner from '../../sections/banner';
-import LatestProjects from '../../sections/ourwork';
 import Team from '../../sections/team';
 import Footer from '../../components/footer/index';
 import ContactCard from '../../components/ContactCard';

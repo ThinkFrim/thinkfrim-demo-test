@@ -1,5 +1,4 @@
 import React from 'react'
-// import './contactcard.css'
 const ContactCard = () => {
     return (
         <div className='chineseBlackBg xl:h-[100vh]'>
